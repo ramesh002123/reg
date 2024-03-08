@@ -1,0 +1,230 @@
+.section1{
+    width: fit-content;
+    height: fit-content;
+    /* width: 400px; */
+    /* height: 550px; */
+    background-color: rgba(0,0,0,0.3) ;
+    /* background-size: cover; */
+    color: beige;
+    /* margin-left: 200px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 60px;
+    padding: 0cap;
+}
+.section2{
+    display:block;
+    width: 450px;
+    height:500px;
+    background-image: url(../burger.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom: 0;
+    /* margin-left :0.5px; */
+    border-radius: 1.5cap;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+
+}
+body{
+    background-image: url(learn-header.png);
+    background-size: cover;
+    /* background-color: rgb(95, 42, 42); */
+    margin-top: 10px;
+} 
+h1{
+    padding: 0cap;
+    margin: 0cap;
+    margin-bottom: 0.5cap;
+    margin-top: 0.5cap;
+    font-size: 1.5em;
+    text-align: center;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+.regform{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin-top: 0;
+    padding-top: 0.3cap;
+    font: 2em sans-serif;
+    font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+    color: #bd9366;    
+}
+.text{
+    padding: 8px;
+    width: 280px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: none;
+    border-radius: 5px;
+    border-right: 0cap;
+    border-left: 0cap;
+    border-top: 0cap;
+    border-bottom-left-radius: 10px;
+}
+button{
+    background-color: rgb(161, 28, 28);
+    border-style: solid;
+    border-color: rgba(0,0,0,0.3);
+    border-radius: 5cap;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1em;
+    /* color: white; */
+    margin-left: 100px;
+    margin-bottom: 1cap;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-style: inherit;
+    font-size: 1em;
+}
+.down{
+    color: beige;
+    /* text-decoration: none; */
+    /* text-wrap: 2px; */
+    font: 1.7em sans-serif;
+
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkbox{
+    margin-left: 1cap;
+}
+.empty{
+    height:500px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 1.5cap;
+}
+                /* POP-UP */
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+    margin-top: -6.5cap;
+}
+  
+.button {
+    font-size: 1em;
+    padding: 5px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+    color: beige;
+    font: 1.7em sans-serif;
+
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.button:hover {
+    background: #06D85F;
+}
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 7s ease-in-out;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: #a82121;
+    /* font-family: Tahoma, Arial, sans-serif; */
+    font: 1.7em sans-serif;
+    font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        
+}
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.popup .close:hover {
+    color: #06D85F;
+}
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+    background-color: #fff;
+    font-style: oblique;
+}
+  
+@media screen and (max-width: 600px){
+.box{
+    width: 100%;
+}
+.popup{
+    width: 70%;
+}
+} 
+.tittle{
+    color: red;
+}  
+.content{
+
+}     
+@media screen and (max-width: 600px){
+    .section{
+        width: 100%;
+    }
+
